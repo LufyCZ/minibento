@@ -4,11 +4,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: BentoBox
-    network: kovan
+    network: matic
     source:
-      address: "0xc381a85ed7c7448da073b7d6c9d4cbf1cbf576f0"
+      address: "0x0319000133d3AdA02600f0875d2cf03D442C3367"
       abi: BentoBox
-      startBlock: 27205233
+      startBlock: 13952308
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
